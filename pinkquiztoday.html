@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        @keyframes text{
+            100% {
+                transform: scale(2)
+
+            }
+            50% {
+                transform: scale(0.2);
+            }
+            75% {
+                transform: rotateZ(270deg);
+                
+            }
+        
+        }
+        #text {
+            animation-name: text;
+            animation-iteration-count: infinite;
+            animation-duration: 6s;
+            animation-direction:alternate;
+
+
+            color: navy;
+             font-family: "Source Sans Pro", Arial, sans-serif;
+            font-size: 50px;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+        }
+        @keyframes movebox {
+            50% {
+                transform: translateX(800px);
+                
+               
+
+            }
+            100% {
+                transform: translateX(-1000px);
+            }
+
+            
+        
+            
+        }
+        #box {
+
+            animation-name: movebox;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 3s;
+            background-color: pink;
+            height: 500px;
+            width: 600px;
+            position: absolute;
+            top: 45%;
+            left: 15%;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div id="text"> QUIZ TODAY</div>
+    <div id="box"></div>
+</body>
+</html>
