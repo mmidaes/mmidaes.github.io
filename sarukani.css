@@ -1,0 +1,144 @@
+body {
+    background-image: url(https://i.pinimg.com/736x/2a/6d/54/2a6d543f83ff3c8c2981131747a09fe1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+   
+
+}
+#text {
+    width: 60vw;
+    height: 50vh;
+    font-size: 7rem;
+    position: absolute;
+    text-align: center;
+    top: 22%;
+    left: 20%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blanchedalmond;
+    text-shadow: 7px 3px gray;
+    line-height: 1.5;
+    z-index: 2;
+
+
+}
+
+@keyframes monki {
+    100% {
+        top: 50%;
+        left:0%;
+    }
+}
+#monki {
+    animation-name: monki;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction:normal;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA3_WaZ1lak5FiWCOdFCPczr5wW6owvql2jD4y3GHXWdqfn6ail6T48kJ4TaPvj0Ybbyg_UYkCy8hx7WUVxI7-IsIdbdMjBteq9gTfwTJpZa-zja6JR8IynkxxCZW8FaBrn54Asllw9d_i/s400/saru_tatebue.png);
+    background-color: transparent;
+    background-size: cover;
+    width: 280px;
+    height: 350px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 1;
+
+
+
+}
+
+
+
+@keyframes crab-jitter {
+    50% {
+        
+        rotate: 10deg;
+    }
+    100% {
+       
+        rotate: -20deg;
+    }
+}
+ /* #crab {
+    animation-name: crab;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+    animation-direction: normal;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+    background-color: transparent;
+    background-size: cover;
+    width: 480px;
+    height: 350px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    z-index: 1;
+
+ } */
+
+  #crab {
+    animation-name: crab-jitter;
+    animation-iteration-count: infinite;
+    animation-duration: 1.7s;
+    animation-direction: alternate;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+    background-color: transparent;
+    background-size: cover;
+    width: 480px;
+    height: 350px;
+    position: absolute;
+    top: 5%;
+    left: 65%;
+    z-index: 1;
+
+ }
+
+ @keyframes page1direct {
+    100% {
+        opacity: 100%;
+    }
+    0% {
+        opacity: 0%;
+    }
+ }
+ #directpage1 {
+    /* figure out how to add link to the text */
+    animation-name: page1direct;
+    animation-direction: normal;
+    animation-duration: 4s;
+    animation-iteration-count:1;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top:90%;
+    left: 45%;
+    font-size: 3.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+    text-shadow: 2px 1px gray;
+    line-height: 1;
+    z-index: 2;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    color: gray;
+
+ }
+ a { /* change color of link */
+  color: gray; /* change this to whatever color you want */
+  text-decoration: none; /* optional: removes underline */
+}
+
+
+#textpage1 {
+    color: rgb(80, 80, 80);
+    width: 80vw;
+    height: 60vh;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px rgb(174, 174, 174);
+    position: absolute;
+}
+
+
