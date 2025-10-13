@@ -1,12 +1,4 @@
-body {
-    background-image: url(https://i.pinimg.com/736x/2a/6d/54/2a6d543f83ff3c8c2981131747a09fe1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-   
 
-}
 #text {
     width: 60vw;
     height: 50vh;
@@ -23,7 +15,7 @@ body {
 
 
 }
-
+/* titlepage */
 @keyframes monki {
     100% {
         top: 50%;
@@ -32,10 +24,12 @@ body {
 }
 #monki {
     animation-name: monki;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 3;
     animation-duration: 4s;
-    animation-direction:normal;
+    animation-direction:alternate;
+       
     background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA3_WaZ1lak5FiWCOdFCPczr5wW6owvql2jD4y3GHXWdqfn6ail6T48kJ4TaPvj0Ybbyg_UYkCy8hx7WUVxI7-IsIdbdMjBteq9gTfwTJpZa-zja6JR8IynkxxCZW8FaBrn54Asllw9d_i/s400/saru_tatebue.png);
+
     background-color: transparent;
     background-size: cover;
     width: 280px;
@@ -44,7 +38,7 @@ body {
     top: 10%;
     left: 10%;
     z-index: 1;
-
+animation-fill-mode: forwards; /* stay at end position */
 
 
 }
@@ -61,22 +55,7 @@ body {
         rotate: -20deg;
     }
 }
- /* #crab {
-    animation-name: crab;
-    animation-iteration-count: 1;
-    animation-duration: 6s;
-    animation-direction: normal;
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
-    background-color: transparent;
-    background-size: cover;
-    width: 480px;
-    height: 350px;
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    z-index: 1;
 
- } */
 
   #crab {
     animation-name: crab-jitter;
@@ -124,6 +103,7 @@ body {
     text-align: center;
     border-radius: 10px 10px 10px 10px;
     color: gray;
+      animation-fill-mode: forwards; /* stay at end position */
 
  }
  a { /* change color of link */
@@ -132,13 +112,1027 @@ body {
 }
 
 
-#textpage1 {
-    color: rgb(80, 80, 80);
+#textformatting {
+    color: black;
     width: 80vw;
     height: 60vh;
     font-size: 2rem;
-    text-shadow: 2px 2px 2px rgb(174, 174, 174);
+    text-shadow: 2px 2px 2px rgb(227, 227, 227);
     position: absolute;
+    top: 3%;
+    left: 5%;
+}
+ @keyframes onigiricrabpg1 {
+     50% {
+        top: 60%;
+        left: 76%;
+        rotate: 10deg;
+    }
+    100% {
+       top: 80%;
+       left:70%;
+       rotate: -20deg;
+       
+    } 
 }
 
 
+#foundmusubicrab {
+    animation-name: onigiricrabpg1;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-duration: 14s; 
+    height: 120px;
+    width: 140px;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+    top: 40%;
+    left: 67%;
+    background-color: transparent;
+    position: absolute;
+    background-size: cover;
+      animation-fill-mode: forwards; /* stay at end position */
+
+
+}
+@keyframes exclamationpointpg1 {
+    
+      0% {
+    opacity: 0;  /* hidden at start */
+  }
+  43.6% {
+    opacity: 0;  /* still hidden until ~7s */
+  }
+  43.7% {
+    opacity: 1;  /* show at 7s */
+  }
+  57% {
+    opacity: 1;  /* keep showing until 9s */
+  }
+  57.1% {
+    opacity: 0;  /* hide again after 9s */
+  }
+  100% {
+    opacity: 0;  /* remain hidden until 15s end */
+  }
+}
+#exclamationpoint {
+        top: 60%;
+        left: 87%;
+        height: 90px;
+        width: 90px;
+        position: absolute;
+        background-image: url(https://tegakisozai.com/wp-content/uploads/2019/09/bikkurima-ku_sankaku_aka-400x400.png);
+        transform: rotate(20deg);
+        background-color: transparent;
+        background-size: cover;
+        animation-name: exclamationpointpg1;
+        
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        animation-duration: 10s;
+          animation-fill-mode: forwards; /* stay at end position */
+        
+
+}
+@keyframes onigiripg1 {
+0% {
+    opacity: 0%;
+}
+33% {
+    opacity: 0%;
+}
+33.17% {
+    opacity: 100%;
+} 
+77% {
+    top: 70%;
+    left: 67%;
+}
+84.2% {
+    top: 75%;
+    left: 72%;
+    rotate: 10deg;
+}
+100% {
+    top: 73%;
+    left: 72%;
+    rotate: -20deg;
+}
+}
+#riceballpg1 {
+    width: 80px;
+    height: 80px;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5VsD60JSuXklQr5dxCgcxAlKLTgz-FGPBNgiXP0E7NSAZEnPp1WYAZRFbk3jbXFmLyF7snR62YHhf-S5G9zrh22cgCmZcsZq_0H8Ie6Mb_cGFzdfsmlKy85jMam0FTrwsvijBiSemBbID/s800/onigiri_maru.png);
+    background-color: transparent;
+    top: 64%;
+    left: 64%;
+    position: absolute;
+    background-size: cover;
+    animation-name: onigiripg1;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards; 
+    
+
+}
+@keyframes directlastpage {
+    100% {
+        opacity: 100%;
+    }
+    0% {
+        opacity: 0%;
+    }
+ }
+ /******** THIS IS THE BUTTON PAGE PRIOR *******/
+ #backpage {
+    /* figure out how to add link to the text */
+    animation-name: directlastpage;
+    animation-direction: normal;
+    animation-duration: 3s;
+    animation-iteration-count:1;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top:17%;
+    left: 3%;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1;
+    
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    color: gray;
+    animation-fill-mode: forwards; /* stay at end position */
+
+ }
+ 
+  @keyframes directnextpage {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%
+    }
+
+}
+/******** THIS IS THE BUTTON NEXT PAGE FOR ALL OF THE ANIMATION *******/
+#nextpage {
+    animation-name: directnextpage;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    color: gray;
+
+} 
+
+
+
+/* PAGE TWO */
+@keyframes movingMonkeyPg2 {
+  0% {
+    top: 60%;
+    left: 70%;
+  }
+  30% {
+    top: 55%;
+    left: 48%;
+  }
+  50% {
+    top: 60%;
+    left: 24%;
+  }
+  70% {
+    top: 60%;
+    left: 24%;
+  }
+  100% {
+    top: 67%;
+    left: -20%;
+  }
+}
+#monkipg2 {
+  animation: movingMonkeyPg2 12s forwards;
+  background: transparent url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih17IOYjJat4qQhNj2GVB6pbUycUjUE8PK1Mbk16pZkcW_KKvv-yFlkZgQ5yYXxeciJlVd8nTI5HRjm0kucU8DRv_vpZkvy4lbIlDlLoQqWkJ1WzYFWySAzhpWiN0mGHl7q8A33HU2Pqg/s800/eto_saru_dance.png) no-repeat center/cover;
+  height: 220px;
+  width: 218px;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+}
+
+/* Crab stays still */
+#crabpg2 {
+  background: transparent url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQajaGFHvWxT7JmWk9Ck5P7KlMtotQ0ASobD6rU3g4zkYitH_kWTfRWvSNRzahV1HzFp0fqRSqdVS4uuN3OZFJo3-sQxR0OiLjIZ0KyMppkoUEN7DObh3p_qhBnlUdMj8VByZlvCtKzew/s180-c/seiza04_kani.png) no-repeat center/cover;
+  height: 220px;
+  width: 218px;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+/* Rice ball moves to monkey, then off screen */
+@keyframes movingRiceBallPg2 {
+  0% {
+    top: 46%;
+    left: 12%;
+  }
+  50% {
+    top: 60%;
+    left: 24%;
+  }
+  70% {
+    top: 60%;
+    left: 24%;
+  }
+  100% {
+    top: 70%;
+    left: -20%;
+  }
+}
+#musubipg2 {
+  animation: movingRiceBallPg2 13s forwards;
+  background: transparent url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5VsD60JSuXklQr5dxCgcxAlKLTgz-FGPBNgiXP0E7NSAZEnPp1WYAZRFbk3jbXFmLyF7snR62YHhf-S5G9zrh22cgCmZcsZq_0H8Ie6Mb_cGFzdfsmlKy85jMam0FTrwsvijBiSemBbID/s800/onigiri_maru.png) no-repeat center/cover;
+  height: 150px;
+  width: 148px;
+  position: absolute;
+  top: 46%;
+  left: 12%;
+}
+
+/* Persimmon seed fades in where monkey was, then goes to crab */
+@keyframes movingSeedPg2 {
+  0%, 60% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 100%;
+    top: 52%;
+    left: 24%;
+  }
+  100% {
+    opacity: 100%;
+    top: 59%;
+    left: 12%;
+  }
+}
+#persimmonseed {
+  animation: movingSeedPg2 10s forwards;
+  background: transparent url(https://content.mycutegraphics.com/graphics/garden/plant-seed.png) no-repeat center/cover;
+  height:40px;
+  width: 42px;
+  position: absolute;
+  top: 52%;
+  left: 24%;
+  opacity: 0%;
+}
+
+/* PAGE THREE */
+ 
+ /* Crab moves toward garden spot */
+@keyframes crabPlanting {
+  0% { top: 60%; left: 10%; }
+  40% { top: 60%; left: 35%; }
+  100% { top: 60%; left: 45%; }
+}
+#crabpg3 {
+  animation: crabPlanting 6s forwards;
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  height: 200px;
+  width: 250px;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+
+
+
+  
+  /* Sprout grows only after crab finishes moving and seed lands */
+@keyframes sproutGrow {
+  0% { opacity: 0; transform: scaleY(0); }
+  30% { opacity: 0; transform: scaleY(0); }
+  100% { opacity: 1; transform: scaleY(1); }
+}
+
+#sproutpg3 {
+  animation: sproutGrow 8s forwards;
+  animation-delay: 6s; /* Wait until crab + seed animations end */
+  background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-tree-irasutoya-style-japanese-illustration-green-leaves-png-image_16193508.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  width: 500px;
+  height: 600px; /* final full size */
+  position: absolute;
+  top: 20%;
+  left: 56%;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: bottom center; /* grow upward */
+}
+@keyframes wateringtree {
+    0% {opacity: 0; }
+    27% {
+      opacity: 0;
+    }
+    28% {
+    opacity: 1;
+    }
+    100% {
+opacity: 0;
+    }
+    
+    
+
+
+
+
+}
+#water {
+  animation-name: wateringtree;
+  animation-duration: 8s;
+  
+  animation-direction: normal;
+  background-image: url(https://gallery.yopriceville.com/downloadfullsize/send/17665);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  width: 300px;
+  height: 300px; 
+  opacity: 0;
+  position: absolute;
+  top: 22%;
+  left: 56%;
+  
+}
+#sun {
+background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-sun-irasutoya-style-japanese-illustration-png-image_16176861.png);
+ background-size: cover;
+    background-repeat: no-repeat;
+    top: 0%;
+    left: 85%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    clip-path: circle(50% at 50% 50%);
+
+}
+/* end of page three */
+
+/* page four */
+@keyframes persimmonAnimate {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#persimmonfruit {
+    animation-name: persimmonAnimate;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyuTiQjRSYySmv2mZ2M-hFEbiy7FkzJP9xbZkhKDf7COnbnnOkpRSU8t9E7Fr78TMwjz8B-E36FWAG1G8YY55pBbCmqls3VL-k5SLa_JBl_gceAPIA9pskA0pilG2ptRj498ms-NNuwbJR/s1600/fruit_kaki.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 55px;
+    position: absolute;
+    left: 60%;
+    top: 35%;
+}
+#persimmonfruitmany {
+    animation-name: persimmonAnimate;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy7iHslK5tj1CzdSYNCdBv9QDjD6MXiRr3B4y-fG20wwLe8rKp_0i3K0a9CTHqtvWcj9qVewzexJ_4GbUWQNsACbiRoiXBVhRFxwp0JcLE1-DBTPBYku24aX046tpCa-gFJno5teXLXWr7/s1600/vegetable_mini_tomato_orange.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 205px;
+    position: absolute;
+    left: 25%;
+    top: 65%;
+}
+#persimmonfruitmany2 {
+    animation-name: persimmonAnimate;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy7iHslK5tj1CzdSYNCdBv9QDjD6MXiRr3B4y-fG20wwLe8rKp_0i3K0a9CTHqtvWcj9qVewzexJ_4GbUWQNsACbiRoiXBVhRFxwp0JcLE1-DBTPBYku24aX046tpCa-gFJno5teXLXWr7/s1600/vegetable_mini_tomato_orange.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 205px;
+    position: absolute;
+    left: 75%;
+    top: 55%;
+}
+
+/* end of page 4 */
+
+/* Page 5: crab asks, monkey climbs, monkey eats */
+
+/* crab waves or points toward the tree */
+@keyframes crabAsk {
+0%   { transform: translateY(0); }
+25%  { transform: translateY(-6px); }
+50%  { transform: translateY(0); }
+75%  { transform: translateY(-4px); }
+100% { transform: translateY(0); }
+}
+#crabpg5 {
+position: absolute;
+top: 60%;
+left: 12%;
+width: 170px;
+height: 1500px;
+background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+background-repeat: no-repeat;
+background-size: contain;
+animation: crabAsk 3s ease-in-out 0s infinite;
+transform-origin: center;
+}
+
+/* monkey walks to the tree, pauses, then climbs */
+@keyframes monkeyApproach {
+0%   { top: 60%; left: 75%; transform: scaleX(1); }
+40%  { top: 60%; left: 40%; transform: scaleX(1); }
+100% { top: 55%; left: 75%; transform: scaleX(1); }
+}
+@keyframes monkeyClimb {
+0%   { transform: translateY(0); }
+30%  { transform: translateY(-10px); }
+60%  { transform: translateY(-160px); }
+80%  { transform: translateY(-170px); }
+100% { transform: translateY(-170px); }
+}
+#monkipg5 {
+position: absolute;
+top: 60%;
+left: 75%;
+width: 180px;
+height: 180px;
+background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZPQ8MpxJClA12cNagtztlodVQdhxzBi3KtZF4eFtB6CDkuMBPuZa5-220_LG0rD_VIia_-4Q5oAVI6ULBIuQY8Rwo5VoHKb_lBf20TTDw7oGPwFizriJFG0W7f2YMG7nQiYPX3U6Sra4/s800/animal_stand_saru.png);
+background-repeat: no-repeat;
+background-size: contain;
+animation: monkeyApproach 2s ease-out 0s forwards, monkeyClimb 2s ease-in 2.2s forwards;
+transform-origin: center bottom;
+z-index:2;
+}
+
+/* tree sits at planting spot */
+#treepg5 {
+position: absolute;
+top: 20%;
+left: 62%;
+width: 620px;
+height: 1020px;
+background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpqy4lZlKBo6VgFAwjEXkmYLA0uG3i0l8YhHJE4bu88kS58Mw3oZIAAtGG6y6fj48hz11yZoUv8MSUUyKgxb-R1NfbGTlw1oO3ZCGalEsHlUvc6OCSZT63c5rUnEUhsV-A_NXMrzfC5Zw/s800/tree_keyaki.png);
+background-repeat: no-repeat;
+background-size: contain;
+transform-origin: bottom center;
+}
+
+/* multiple persimmons positioned on tree.
+They disappear one by one as the monkey eats them. */
+.persimmon {
+position: absolute;
+top: 30%;
+left: 80%;
+width: 48px;
+height: 48px;
+background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy7iHslK5tj1CzdSYNCdBv9QDjD6MXiRr3B4y-fG20wwLe8rKp_0i3K0a9CTHqtvWcj9qVewzexJ_4GbUWQNsACbiRoiXBVhRFxwp0JcLE1-DBTPBYku24aX046tpCa-gFJno5teXLXWr7/s1600/vegetable_mini_tomato_orange.png);
+background-repeat: no-repeat;
+background-size: contain;
+opacity: 1;
+transform-origin: center;
+transition: transform 300ms linear, opacity 300ms linear;
+}
+
+/* sample positions (adjust to match your tree art) */
+#pers1 { top: 36%; left: 88%; }
+#pers2 { top: 46%; left: 84%; }
+#pers3 { top: 54%; left: 86%; }
+#pers4 { top: 40%; left: 72%; }
+#pers5 { top: 40%; left: 74%; }
+
+/* keyframe to shrink and fade a fruit when eaten */
+@keyframes fruitEaten {
+0%   { transform: scale(1); opacity: 1; }
+60%  { transform: scale(0.9); opacity: 1; }
+100% { transform: scale(0); opacity: 0; }
+}
+
+/* apply eating sequence with staggered delays */
+#pers1 { animation: fruitEaten 0.6s ease-in 4.4s forwards; }
+#pers2 { animation: fruitEaten 0.6s ease-in 4.7s forwards; }
+#pers3 { animation: fruitEaten 0.6s ease-in 5.0s forwards; }
+#pers4 { animation: fruitEaten 0.6s ease-in 5.3s forwards; }
+#pers5 { animation: fruitEaten 0.6s ease-in 5.6s forwards; }
+
+/* small nibble motion for monkey at eating time */
+@keyframes monkeyNibble {
+0%   { transform: translateY(-170px) rotate(0deg); }
+30%  { transform: translateY(-176px) rotate(-6deg); }
+60%  { transform: translateY(-170px) rotate(6deg); }
+100% { transform: translateY(-170px) rotate(0deg); }
+}
+/* start nibbling slightly after climb ends */
+
+#monkipg5 {
+animation: monkeyApproach 2s ease-out 0s forwards, monkeyClimb 2s ease-in 2.2s forwards, monkeyNibble 1.2s ease-in-out 4.4s forwards;
+}
+
+
+@keyframes fruitBounce {
+0%   { transform: translateY(0); opacity: 1; }
+50%  { transform: translateY(30px); opacity: 1; }
+100% { transform: translateY(60px); opacity: 0; }
+}
+.bad {
+animation: fruitBounce 1s ease-in 5.8s forwards;
+} /* ease-in makes the animation start slow and then speed up toward the end. */
+
+/* 
+
+* adjust left/top values to match your layout.
+* change animation delays to match timing */
+
+/* END OF PAGE 5 */
+
+/* START OF PAGE 6 */
+
+/* Monkey climbs up */
+@keyframes monkeyClimbPg6 {
+  0% { top: 70%; left: 60%; }
+  40% { top: 20%; left: 60%; }
+  100% { top: 20%; left: 60%; }
+}
+#monkeypg6 {
+  width: 150px;
+  height: 150px;
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZPQ8MpxJClA12cNagtztlodVQdhxzBi3KtZF4eFtB6CDkuMBPuZa5-220_LG0rD_VIia_-4Q5oAVI6ULBIuQY8Rwo5VoHKb_lBf20TTDw7oGPwFizriJFG0W7f2YMG7nQiYPX3U6Sra4/s800/animal_stand_saru.png);
+  background-size: cover;
+  background-color: transparent;
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  animation: monkeyClimbPg6 4s forwards;
+}
+
+/* Crab waiting below */
+#crabpg6 {
+  width: 120px;
+  height: 120px;
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQajaGFHvWxT7JmWk9Ck5P7KlMtotQ0ASobD6rU3g4zkYitH_kWTfRWvSNRzahV1HzFp0fqRSqdVS4uuN3OZFJo3-sQxR0OiLjIZ0KyMppkoUEN7DObh3p_qhBnlUdMj8VByZlvCtKzew/s800/seiza04_kani.png);
+  background-size: cover;
+  background-color: transparent;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  animation-name: crabdead;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes crabdead {
+  0% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Sour fruit falling */
+@keyframes sourFruitFall {
+  0% { top: 20%; left: 65%; opacity: 0; }
+  20% { opacity: 1; }
+  80% { top: 65%; left: 20%; }
+  100% { top: 65%; left: 20%; opacity: 0; }
+}
+#sourfruitpg6 {
+  width: 60px;
+  height: 60px;
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijbtwJRZDTNlcLjvVWwPssJQeP9jwP8QG6Cu8Cf2T9robiKMb7YZPsslQVFKaBVj4vsZTClh9z7_6IuD8sd8Ph6xG2KZbg-cBhKaJZlQvYU4uZ2_VH1H448lk70oMoipUClOBusXY0BWXY/s1600/vegetable_mini_tomato_green.png);
+  background-size: cover;
+  position: absolute;
+  background-color: transparent;
+  top: 20%;
+  left: 65%;
+  opacity:0;
+  animation: sourFruitFall 3s 4s forwards; /* starts after monkey climbs */
+}
+
+/* Crab reaction to getting hit */
+@keyframes crabHit {
+  0% { transform: rotate(0deg); }
+  40% { transform: rotate(-20deg);opacity:1; }
+  70% { transform: rotate(20deg); opacity:1;}
+  100% { transform: rotate(0deg);opacity:1; }
+}
+#crabhitpg6 {
+  width: 140px;
+  height: 120px;
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXBzySnjpm_RWSaWaccyOBJR1EfOnuxXaVkJq8nSk_WiacIkCK5pvj1IOwvXWBwgV2gPGRUIGIe-NB3Y3j-skIjdYSFeqg3clLpWm7YXuv2dEYK75mAjFIVW7rsAcqslzS_9IRIGSBjrsH/s800/kani_osu.png);
+  background-size: cover;
+  background-color: transparent;
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  opacity: 0;
+  animation: crabHit 1s 7s forwards; /* plays after fruit hits */
+
+}
+@keyframes skullafterdeadcrab {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+    transform: scale(1.0)
+  }
+  100% {
+    opacity: 1;
+    transform: scale(2);
+    top: 35%
+  }
+}
+#skulldeadcrab {
+  animation-name: skullafterdeadcrab;
+  animation-duration: 12s;
+  animation-fill-mode: forwards;
+  background-image: url(https://japaclip.com/files/human-bones.png);
+  background-color: transparent;
+  background-size: cover;
+  height: 140px;
+  width: 200px;
+  left: 20%;
+  top: 65%;
+  position: absolute;
+}
+
+/* END OF PAGE 6*/
+
+/* START OF PAGE 7*/
+
+#curtains {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlHPJk90m_rT_3j4Hl2qtS6rwL4BUz5vux5KKw-e6sY5fhiK5GBE3o_R86foLyryIHyi7OU96SJVu11_-6KxBGmdDTyZx5X61CmCv_EqM72ZfU7ABAufnL9rfduPfw0uzGL-av9frUez8H/s800/curtain_close.png);
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  position: absolute;
+  left: 0%;
+  top: 25%;
+  z-index: 3;
+  opacity: 1;
+}
+
+#curtains:hover {
+  animation: fadeCurtain 2s forwards ease-in-out;
+}
+
+@keyframes fadeCurtain {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#ricemortarpg7 {
+  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/N/Newdonut/20221123/20221123045422.png);
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  top: 30%;
+  left: 40%;
+  position: absolute;
+  z-index: 1;
+
+}
+#beepg7 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidWtRsWiqmnpQi_FLcpKbliYesySh7PEsMA93CHdFlJ8XjOm3wozQ2FsTAc5IECV0n-R00RRzp-sLwkdtCgFohh74QKyFfmZn8ebHx8VC_tCfPWZB77Yx-jz-LQz7nx7-t3Ijlkwx5axFb/s400/bug_character_hachi.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  z-index: 1;
+}
+
+#chestnutpg7 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQLtu17YSYKIbA0WIYcmFWtGwHiUxmMuya_NyJhgXcdz7eprj5PzpBdh2NpXuhAdLcuXW3SSllBidC0_4zx-RoDH6Smqhyih8w5LOby3cZlqE5jnF9OZLOrz3PZ_2Qlo4chq-DW-y0zKiB/s400/character_kuri.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  z-index: 1;
+}
+.madmark {
+  background-image: url(https://chicodeza.com/wordpress/wp-content/uploads/ikarima-ku-illust31.png);
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  animation-name: madmarkmove;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  z-index: 2;
+  
+}
+@keyframes madmarkmove {
+  0% {
+    transform: scale(1);
+
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#ikarimark1 {
+  left: 17%;
+  top: 38%;
+}
+#ikarimark2 {
+  left: 80%;
+  top: 40%;
+
+}
+#ikarimark3 {
+  top: 33%;
+  left: 42%;
+}
+
+/* END OF PAGE 7 */
+
+/* START OF PAGE 8 */
+
+/* Monkey walks into the trap */
+@keyframes monkeyWalkPg8 {
+  0% { left: -20%; top: 65%; opacity: 0; }
+  20% { opacity: 1; }
+  80% { left: 45%; top: 65%; opacity: 1; }
+  100% { left: 45%; top: 65%; opacity: 1; }
+}
+#monkeypg8 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZPQ8MpxJClA12cNagtztlodVQdhxzBi3KtZF4eFtB6CDkuMBPuZa5-220_LG0rD_VIia_-4Q5oAVI6ULBIuQY8Rwo5VoHKb_lBf20TTDw7oGPwFizriJFG0W7f2YMG7nQiYPX3U6Sra4/s800/animal_stand_saru.png);
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 65%;
+  left: -20%;
+  z-index: 3;
+  animation: monkeyWalkPg8 5s ease-in-out forwards;
+}
+
+/* Rice mortar pops out and shakes */
+@keyframes mortarPopPg8 {
+  0% { top: 80%; opacity: 0; transform: scale(0.8); }
+  60% { top: 70%; opacity: 1; transform: scale(1.1); }
+  100% { top: 70%; transform: scale(1); }
+}
+#ricemortarpg8 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnMhAWZDrzSkiC6lTRKWDy2JXfxUcavKuUHSIVJRP3f0ob_kaY49PwXB5tT7RE5lb0Bl6k5viaPNv7l09iYruizOps1ArrKFpONeoN_K21pRDGsbiIgp8CFZZUZFF_lVt5_TzByxMmHEdz/s800/mochitsuki_dougu.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 80%;
+  left: 15%;
+  z-index: 3;
+  animation: mortarPopPg8 2s 4s forwards ease-out;
+}
+
+/* Bee buzzes around the monkey */
+@keyframes beeFlyPg8 {
+  0% { top: 15%; left: 65%; }
+  25% { top: 20%; left: 70%; }
+  50% { top: 18%; left: 75%; }
+  75% { top: 22%; left: 68%; }
+  100% { top: 15%; left: 65%; }
+}
+#beepg8 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidWtRsWiqmnpQi_FLcpKbliYesySh7PEsMA93CHdFlJ8XjOm3wozQ2FsTAc5IECV0n-R00RRzp-sLwkdtCgFohh74QKyFfmZn8ebHx8VC_tCfPWZB77Yx-jz-LQz7nx7-t3Ijlkwx5axFb/s1600/bug_character_hachi.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 15%;
+  left: 65%;
+  z-index: 4;
+  animation: beeFlyPg8 3s infinite linear;
+}
+
+/* Chestnut rolls toward monkey */
+@keyframes chestnutRollPg8 {
+  0% { left: 15%; top: 75%; transform: rotate(0deg); }
+  60% { left: 40%; top: 75%; transform: rotate(360deg); }
+  100% { left: 40%; top: 75%; transform: rotate(720deg); }
+}
+#chestnutpg8 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQLtu17YSYKIbA0WIYcmFWtGwHiUxmMuya_NyJhgXcdz7eprj5PzpBdh2NpXuhAdLcuXW3SSllBidC0_4zx-RoDH6Smqhyih8w5LOby3cZlqE5jnF9OZLOrz3PZ_2Qlo4chq-DW-y0zKiB/s800/character_kuri.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  top: 75%;
+  left: 15%;
+  z-index: 3;
+  animation: chestnutRollPg8 3s 5s forwards ease-in;
+}
+
+/* Boom explosion when monkey gets hit */
+@keyframes boomEffectPg8 {
+  0% { opacity: 0; transform: scale(0); }
+  79% { opacity: 1; transform: scale(1.5); }
+  80% { opacity: 1; transform: scale(1.8); }
+  100% { opacity: 1; transform: scale(1.6); }
+}
+
+#boompg8 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzdrFDNuIHEB7THdZgIjgMIwx2sC-rKmcmIlpBh3toUXrLOaFLQ1qCzuB1lEs5JLB633AIraV6qYLH6QsuLIE5gIDMnf-eMLaUpXJ8C_xUmbLGhgbhi2jKRULGmv13sBzzlkzHKmg-Kp0/s800/bakuhatsu.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  width: 400px;
+  height: 333px;
+  opacity: 0;
+  animation: boomEffectPg8 5s 6s forwards; /* appears at right moment */
+  z-index: 6;
+}
+
+
+/* END OF PAGE 8 */
+
+/* START OF PAGE 9 */
+
+
+
+/* Monkey runs away */
+@keyframes monkeyRun {
+  0% { left: 10%; top: 65%; }
+  50% { left: 40%; top: 60%; }
+  100% { left: 110%; top: 65%;  }
+}
+#monkeypg9 {
+  background-image: url(https://tegakisozai.com/wp-content/uploads/2022/01/momotarou_saru.png); /* Monkey image */
+  background-color: transparent;
+  background-size: cover;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 75%;
+  left: 10%;
+  animation-name: monkeyRun;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+/* Crab children appear */
+@keyframes crabChildrenAppear {
+  0% { opacity: 0; transform: scale(0.6); }
+  60% { opacity: 1; transform: scale(1); }
+  100% { opacity: 1; transform: scale(1); }
+}
+#crabchildrenpg9 {
+  background-image: url(https://media.canva.com/v2/image-resize/format:PNG/height:340/quality:100/uri:ifs%3A%2F%2FM%2Fbb550793-b76b-4dd1-9bd6-081055937df4/watermark:F/width:481?csig=AAAAAAAAAAAAAAAAAAAAAA7gOoBrkNEAwqzcPfUEVpgGuvy_jz1Azd2OVIKchpv2&exp=1760390694&osig=AAAAAAAAAAAAAAAAAAAAACXCA6T2yVcq3e3Rk5fR0Vul20dbeOmA2NJhuELbUDZ7&signer=media-rpc&x-canva-quality=screen_3x); /* Crab children image */
+  background-color: transparent;
+  background-size: cover;
+  position: absolute;
+  height: 180px;
+  width: 237px;
+  top: 65%;
+  left: 46%;
+  z-index: 2;
+  opacity: 0;
+  animation: crabChildrenAppear 3s 5s forwards ease-out;
+}
+
+/* Persimmon tree */
+#treepg9 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj53QC5sWz-QhoVMtVEEK8xiKrEXEeQZync3f2aNbXCM6BtYABGSfbX5g4iO66kD9-yv62PSwuYeFoLAaK75xtmuvIHAOfyZvQmz3zK0EA3swGFzagnEsYFOE78SI7MGf50MHIrdHBZkvas/s800/tree_biwa.png); /* Tree image */
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 37%;
+  left: 35%;
+}
+
+/* Bee movement */
+@keyframes beeBuzz {
+  0%, 100% { top: 40%; left: 70%; transform: rotate(5deg); }
+  50% { top: 38%; left: 73%; transform: rotate(-5deg); }
+}
+#beepg9 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidWtRsWiqmnpQi_FLcpKbliYesySh7PEsMA93CHdFlJ8XjOm3wozQ2FsTAc5IECV0n-R00RRzp-sLwkdtCgFohh74QKyFfmZn8ebHx8VC_tCfPWZB77Yx-jz-LQz7nx7-t3Ijlkwx5axFb/s1600/bug_character_hachi.png); /* Bee image */
+  background-color: transparent;
+  background-size: cover;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 40%;
+  left: 70%;
+  animation: beeBuzz 3s infinite ease-in-out;
+}
+
+/* Rice mortar bounce */
+@keyframes mortarBounce {
+  0%, 100% { top: 65%; }
+  50% { top: 63%; }
+}
+#ricemortarpg9 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnMhAWZDrzSkiC6lTRKWDy2JXfxUcavKuUHSIVJRP3f0ob_kaY49PwXB5tT7RE5lb0Bl6k5viaPNv7l09iYruizOps1ArrKFpONeoN_K21pRDGsbiIgp8CFZZUZFF_lVt5_TzByxMmHEdz/s800/mochitsuki_dougu.png); /* Rice mortar image */
+  background-color: transparent;
+  background-size: cover;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 65%;
+  left: 25%;
+  animation: mortarBounce 2s infinite ease-in-out;
+}
+@keyframes chestnutbounce {
+  0%, 100% { top: 34%; }
+  50% { top: 36%; }
+}
+#chestnutpg9 {
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQLtu17YSYKIbA0WIYcmFWtGwHiUxmMuya_NyJhgXcdz7eprj5PzpBdh2NpXuhAdLcuXW3SSllBidC0_4zx-RoDH6Smqhyih8w5LOby3cZlqE5jnF9OZLOrz3PZ_2Qlo4chq-DW-y0zKiB/s800/character_kuri.png); /* Rice mortar image */
+  background-color: transparent;
+  background-size: cover;
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 12%;
+  left: 14%;
+  animation: chestnutbounce 2s infinite ease-in-out;
+}
+
+
+/* END OF PAGE 9 */
+
+#lastpagetext {
+  position: absolute;
+  top: 40%;
+  left: 36%;
+  font-family: fantasy;
+  color: blanchedalmond;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 0px gray;
+  
+}
