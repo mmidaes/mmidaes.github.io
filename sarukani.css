@@ -435,7 +435,7 @@ animation-fill-mode: forwards; /* stay at end position */
 #sproutpg3 {
   animation: sproutGrow 8s forwards;
   animation-delay: 6s; /* Wait until crab + seed animations end */
-  background-image: url("pngtree-tree-irasutoya-style-japanese-illustration-green-leaves-png-image_16193508.png");
+  background-image: url("tree_keyaki.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
