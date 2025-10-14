@@ -28,7 +28,7 @@
     animation-duration: 4s;
     animation-direction:alternate;
        
-    background-image: url("photos/saru_tatebue.png");
+    background-image: url("saru_tatebue.png");
 
     background-color: transparent;
     background-size: cover;
@@ -62,7 +62,7 @@ animation-fill-mode: forwards; /* stay at end position */
     animation-iteration-count: infinite;
     animation-duration: 1.7s;
     animation-direction: alternate;
-    background-image: url("photos/umi_kani.png");
+    background-image: url("umi_kani.png");
     background-color: transparent;
     background-size: cover;
     width: 480px;
@@ -144,7 +144,7 @@ animation-fill-mode: forwards; /* stay at end position */
     animation-duration: 14s; 
     height: 120px;
     width: 140px;
-    background-image: url("photos/umi_kani.png");
+    background-image: url("umi_kani.png");
     top: 40%;
     left: 67%;
     background-color: transparent;
@@ -181,7 +181,7 @@ animation-fill-mode: forwards; /* stay at end position */
         height: 90px;
         width: 90px;
         position: absolute;
-        background-image: url("photos/bikkurima-ku_sankaku_aka-400x400.png");
+        background-image: url("bikkurima-ku_sankaku_aka-400x400.png");
         transform: rotate(20deg);
         background-color: transparent;
         background-size: cover;
@@ -222,7 +222,7 @@ animation-fill-mode: forwards; /* stay at end position */
 #riceballpg1 {
     width: 80px;
     height: 80px;
-    background-image: url("photos/onigiri_maru.png");
+    background-image: url("onigiri_maru.png");
     background-color: transparent;
     top: 64%;
     left: 64%;
@@ -326,7 +326,7 @@ animation-fill-mode: forwards; /* stay at end position */
 }
 #monkipg2 {
   animation: movingMonkeyPg2 12s forwards;
-  background: transparent url("photos/monkeypage2.jpg.png") no-repeat center/cover;
+  background: transparent url("monkeypage2.jpg.png") no-repeat center/cover;
   height: 220px;
   width: 218px;
   position: absolute;
@@ -336,7 +336,7 @@ animation-fill-mode: forwards; /* stay at end position */
 
 /* Crab stays still */
 #crabpg2 {
-  background: transparent url("photos/crabver2.jpg.png") no-repeat center/cover;
+  background: transparent url("crabver2.jpg.png") no-repeat center/cover;
   height: 220px;
   width: 218px;
   position: absolute;
@@ -365,7 +365,7 @@ animation-fill-mode: forwards; /* stay at end position */
 }
 #musubipg2 {
   animation: movingRiceBallPg2 13s forwards;
-  background: transparent url("photos/onigiri_maru.png") no-repeat center/cover;
+  background: transparent url("onigiri_maru.png") no-repeat center/cover;
   height: 150px;
   width: 148px;
   position: absolute;
@@ -391,7 +391,7 @@ animation-fill-mode: forwards; /* stay at end position */
 }
 #persimmonseed {
   animation: movingSeedPg2 10s forwards;
-  background: transparent url("photos/plant-seed.png") no-repeat center/cover;
+  background: transparent url("plant-seed.png") no-repeat center/cover;
   height:40px;
   width: 42px;
   position: absolute;
@@ -410,7 +410,7 @@ animation-fill-mode: forwards; /* stay at end position */
 }
 #crabpg3 {
   animation: crabPlanting 6s forwards;
-  background-image: url("photos/umi_kani.png");
+  background-image: url("umi_kani.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -435,7 +435,7 @@ animation-fill-mode: forwards; /* stay at end position */
 #sproutpg3 {
   animation: sproutGrow 8s forwards;
   animation-delay: 6s; /* Wait until crab + seed animations end */
-  background-image: url("photos/pngtree-tree-irasutoya-style-japanese-illustration-green-leaves-png-image_16193508.png");
+  background-image: url("pngtree-tree-irasutoya-style-japanese-illustration-green-leaves-png-image_16193508.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -471,7 +471,7 @@ opacity: 0;
   animation-duration: 8s;
   
   animation-direction: normal;
-  background-image: url("photos/pngtree-water-splash-isolated-wave-png-image_18213741.png");
+  background-image: url("pngtree-water-splash-isolated-wave-png-image_18213741.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -484,7 +484,7 @@ opacity: 0;
   
 }
 #sun {
-background-image: url("photos/pngtree-sun-irasutoya-style-japanese-illustration-png-image_16176861.png");
+background-image: url("pngtree-sun-irasutoya-style-japanese-illustration-png-image_16176861.png");
  background-size: cover;
     background-repeat: no-repeat;
     top: 0%;
@@ -499,7 +499,7 @@ background-image: url("photos/pngtree-sun-irasutoya-style-japanese-illustration-
 
 /* page four */
 #sunpg4 {
-  background-image: url("photos/sun_yellow1.png");
+  background-image: url("sun_yellow1.png");
   background-size: cover;
   background-repeat: no-repeat;
   top: 0%;
@@ -522,7 +522,7 @@ background-image: url("photos/pngtree-sun-irasutoya-style-japanese-illustration-
     animation-name: persimmonAnimate;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    background-image: url("photos/fruit_kaki.png");
+    background-image: url("fruit_kaki.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50px;
@@ -535,7 +535,7 @@ background-image: url("photos/pngtree-sun-irasutoya-style-japanese-illustration-
     animation-name: persimmonAnimate;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    background-image: url("photos/vegetable_mini_tomato_orange.png");
+    background-image: url("vegetable_mini_tomato_orange.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -548,7 +548,7 @@ background-image: url("photos/pngtree-sun-irasutoya-style-japanese-illustration-
     animation-name: persimmonAnimate;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    background-image: url("photos/vegetable_mini_tomato_orange.png");
+    background-image: url("vegetable_mini_tomato_orange.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -576,7 +576,7 @@ top: 60%;
 left: 12%;
 width: 170px;
 height: 1500px;
-background-image: url("photos/umi_kani.png");
+background-image: url("umi_kani.png");
 background-repeat: no-repeat;
 background-size: contain;
 animation: crabAsk 3s ease-in-out 0s infinite;
@@ -602,7 +602,7 @@ top: 60%;
 left: 75%;
 width: 180px;
 height: 180px;
-background-image: url("photos/animal_stand_saru.png");
+background-image: url("animal_stand_saru.png");
 background-repeat: no-repeat;
 background-size: contain;
 animation: monkeyApproach 2s ease-out 0s forwards, monkeyClimb 2s ease-in 2.2s forwards;
@@ -617,7 +617,7 @@ top: 20%;
 left: 62%;
 width: 620px;
 height: 1020px;
-background-image: url("photos/tree_keyaki.png");
+background-image: url("tree_keyaki.png");
 background-repeat: no-repeat;
 background-size: contain;
 transform-origin: bottom center;
@@ -631,7 +631,7 @@ top: 30%;
 left: 80%;
 width: 48px;
 height: 48px;
-background-image: url("photos/vegetable_mini_tomato_orange.png");
+background-image: url("vegetable_mini_tomato_orange.png");
 background-repeat: no-repeat;
 background-size: contain;
 opacity: 1;
@@ -701,7 +701,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 #monkeypg6 {
   width: 150px;
   height: 150px;
-  background-image: url("photos/animal_stand_saru.png");
+  background-image: url("animal_stand_saru.png");
   background-size: cover;
   background-color: transparent;
   position: absolute;
@@ -714,7 +714,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 #crabpg6 {
   width: 120px;
   height: 120px;
-  background-image: url("photos/crabver2.jpg.png");
+  background-image: url("crabver2.jpg.png");
   background-size: cover;
   background-color: transparent;
   position: absolute;
@@ -747,7 +747,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 #sourfruitpg6 {
   width: 60px;
   height: 60px;
-  background-image: url("photos/vegetable_mini_tomato_green.png");
+  background-image: url("vegetable_mini_tomato_green.png");
   background-size: cover;
   position: absolute;
   background-color: transparent;
@@ -767,7 +767,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 #crabhitpg6 {
   width: 140px;
   height: 120px;
-  background-image: url("photos/crabver3.png");
+  background-image: url("crabver3.png");
   background-size: cover;
   background-color: transparent;
   position: absolute;
@@ -795,7 +795,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   animation-name: skullafterdeadcrab;
   animation-duration: 12s;
   animation-fill-mode: forwards;
-  background-image: url("photos/human-bones.png");
+  background-image: url("human-bones.png");
   background-color: transparent;
   background-size: cover;
   height: 140px;
@@ -810,7 +810,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 /* START OF PAGE 7*/
 
 #curtains {
-  background-image: url("photos/curtain_close.png");
+  background-image: url("curtain_close.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -837,7 +837,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 }
 
 #ricemortarpg7 {
-  background-image: url("photos/20221123045422.png");
+  background-image: url("20221123045422.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -850,7 +850,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 
 }
 #beepg7 {
-  background-image: url("photos/bug_character_hachi.png");
+  background-image: url("bug_character_hachi.png");
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -863,7 +863,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 }
 
 #chestnutpg7 {
-  background-image: url("photos/character_kuri.png");
+  background-image: url("character_kuri.png");
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -875,7 +875,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   z-index: 1;
 }
 .madmark {
-  background-image: url("photos/ikarima-ku-illust31.png");
+  background-image: url("ikarima-ku-illust31.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -927,7 +927,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { left: 45%; top: 65%; opacity: 1; }
 }
 #monkeypg8 {
-  background-image: url("photos/animal_stand_saru.png");
+  background-image: url("animal_stand_saru.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -947,7 +947,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { top: 70%; transform: scale(1); }
 }
 #ricemortarpg8 {
-  background-image: url("photos/20221123045422.png");
+  background-image: url("20221123045422.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -969,7 +969,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { top: 15%; left: 65%; }
 }
 #beepg8 {
-  background-image: url("photos/bug_character_hachi.png");
+  background-image: url("bug_character_hachi.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -989,7 +989,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { left: 40%; top: 75%; transform: rotate(720deg); }
 }
 #chestnutpg8 {
-  background-image: url("photos/character_kuri.png");
+  background-image: url("character_kuri.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -1011,7 +1011,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 }
 
 #boompg8 {
-  background-image: url("photos/bakuhatsu.png");
+  background-image: url("bakuhatsu.png");
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover;
@@ -1039,7 +1039,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { left: 110%; top: 65%;  }
 }
 #monkeypg9 {
-  background-image: url("photos/momotarou_saru.png"); /* Monkey image */
+  background-image: url("momotarou_saru.png"); /* Monkey image */
   background-color: transparent;
   background-size: cover;
   position: absolute;
@@ -1074,7 +1074,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 
 /* Persimmon tree */
 #treepg9 {
-  background-image: url("photos/tree_biwa.png"); /* Tree image */
+  background-image: url("tree_biwa.png"); /* Tree image */
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1091,7 +1091,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   50% { top: 38%; left: 73%; transform: rotate(-5deg); }
 }
 #beepg9 {
-  background-image: url("photos/bug_character_hachi.png"); /* Bee image */
+  background-image: url("bug_character_hachi.png"); /* Bee image */
   background-color: transparent;
   background-size: cover;
   position: absolute;
@@ -1108,7 +1108,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   50% { top: 63%; }
 }
 #ricemortarpg9 {
-  background-image: url("photos/20221123045422.png"); /* Rice mortar image */
+  background-image: url("20221123045422.png"); /* Rice mortar image */
   background-color: transparent;
   background-size: cover;
   position: absolute;
@@ -1123,7 +1123,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   50% { top: 36%; }
 }
 #chestnutpg9 {
-  background-image: url("photos/character_kuri.png"); /* chestnut image */
+  background-image: url("character_kuri.png"); /* chestnut image */
   background-color: transparent;
   background-size: cover;
   position: absolute;
