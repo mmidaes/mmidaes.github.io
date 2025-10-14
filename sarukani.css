@@ -28,7 +28,7 @@
     animation-duration: 4s;
     animation-direction:alternate;
        
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA3_WaZ1lak5FiWCOdFCPczr5wW6owvql2jD4y3GHXWdqfn6ail6T48kJ4TaPvj0Ybbyg_UYkCy8hx7WUVxI7-IsIdbdMjBteq9gTfwTJpZa-zja6JR8IynkxxCZW8FaBrn54Asllw9d_i/s400/saru_tatebue.png);
+    background-image: url("photos/saru_tatebue.png");
 
     background-color: transparent;
     background-size: cover;
@@ -62,7 +62,7 @@ animation-fill-mode: forwards; /* stay at end position */
     animation-iteration-count: infinite;
     animation-duration: 1.7s;
     animation-direction: alternate;
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+    background-image: url("photos/umi_kani.png");
     background-color: transparent;
     background-size: cover;
     width: 480px;
@@ -144,7 +144,7 @@ animation-fill-mode: forwards; /* stay at end position */
     animation-duration: 14s; 
     height: 120px;
     width: 140px;
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+    background-image: url("photos/umi_kani.png");
     top: 40%;
     left: 67%;
     background-color: transparent;
@@ -181,7 +181,7 @@ animation-fill-mode: forwards; /* stay at end position */
         height: 90px;
         width: 90px;
         position: absolute;
-        background-image: url(https://tegakisozai.com/wp-content/uploads/2019/09/bikkurima-ku_sankaku_aka-400x400.png);
+        background-image: url("photos/bikkurima-ku_sankaku_aka-400x400.png");
         transform: rotate(20deg);
         background-color: transparent;
         background-size: cover;
@@ -222,7 +222,7 @@ animation-fill-mode: forwards; /* stay at end position */
 #riceballpg1 {
     width: 80px;
     height: 80px;
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5VsD60JSuXklQr5dxCgcxAlKLTgz-FGPBNgiXP0E7NSAZEnPp1WYAZRFbk3jbXFmLyF7snR62YHhf-S5G9zrh22cgCmZcsZq_0H8Ie6Mb_cGFzdfsmlKy85jMam0FTrwsvijBiSemBbID/s800/onigiri_maru.png);
+    background-image: url("photos/onigiri_maru.png");
     background-color: transparent;
     top: 64%;
     left: 64%;
@@ -326,7 +326,7 @@ animation-fill-mode: forwards; /* stay at end position */
 }
 #monkipg2 {
   animation: movingMonkeyPg2 12s forwards;
-  background: transparent url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih17IOYjJat4qQhNj2GVB6pbUycUjUE8PK1Mbk16pZkcW_KKvv-yFlkZgQ5yYXxeciJlVd8nTI5HRjm0kucU8DRv_vpZkvy4lbIlDlLoQqWkJ1WzYFWySAzhpWiN0mGHl7q8A33HU2Pqg/s800/eto_saru_dance.png) no-repeat center/cover;
+  background: transparent url("photos/monkeypage2.jpg.png") no-repeat center/cover;
   height: 220px;
   width: 218px;
   position: absolute;
@@ -336,7 +336,7 @@ animation-fill-mode: forwards; /* stay at end position */
 
 /* Crab stays still */
 #crabpg2 {
-  background: transparent url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQajaGFHvWxT7JmWk9Ck5P7KlMtotQ0ASobD6rU3g4zkYitH_kWTfRWvSNRzahV1HzFp0fqRSqdVS4uuN3OZFJo3-sQxR0OiLjIZ0KyMppkoUEN7DObh3p_qhBnlUdMj8VByZlvCtKzew/s180-c/seiza04_kani.png) no-repeat center/cover;
+  background: transparent url("photos/crabver2.jpg.png") no-repeat center/cover;
   height: 220px;
   width: 218px;
   position: absolute;
@@ -365,7 +365,7 @@ animation-fill-mode: forwards; /* stay at end position */
 }
 #musubipg2 {
   animation: movingRiceBallPg2 13s forwards;
-  background: transparent url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5VsD60JSuXklQr5dxCgcxAlKLTgz-FGPBNgiXP0E7NSAZEnPp1WYAZRFbk3jbXFmLyF7snR62YHhf-S5G9zrh22cgCmZcsZq_0H8Ie6Mb_cGFzdfsmlKy85jMam0FTrwsvijBiSemBbID/s800/onigiri_maru.png) no-repeat center/cover;
+  background: transparent url("photos/onigiri_maru.png") no-repeat center/cover;
   height: 150px;
   width: 148px;
   position: absolute;
@@ -391,7 +391,7 @@ animation-fill-mode: forwards; /* stay at end position */
 }
 #persimmonseed {
   animation: movingSeedPg2 10s forwards;
-  background: transparent url(https://content.mycutegraphics.com/graphics/garden/plant-seed.png) no-repeat center/cover;
+  background: transparent url("photos/plant-seed.png") no-repeat center/cover;
   height:40px;
   width: 42px;
   position: absolute;
@@ -410,7 +410,7 @@ animation-fill-mode: forwards; /* stay at end position */
 }
 #crabpg3 {
   animation: crabPlanting 6s forwards;
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+  background-image: url("photos/umi_kani.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -435,7 +435,7 @@ animation-fill-mode: forwards; /* stay at end position */
 #sproutpg3 {
   animation: sproutGrow 8s forwards;
   animation-delay: 6s; /* Wait until crab + seed animations end */
-  background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-tree-irasutoya-style-japanese-illustration-green-leaves-png-image_16193508.png);
+  background-image: url("photos/pngtree-tree-irasutoya-style-japanese-illustration-green-leaves-png-image_16193508.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -471,7 +471,7 @@ opacity: 0;
   animation-duration: 8s;
   
   animation-direction: normal;
-  background-image: url(https://gallery.yopriceville.com/downloadfullsize/send/17665);
+  background-image: url("photos/pngtree-water-splash-isolated-wave-png-image_18213741.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
@@ -484,7 +484,7 @@ opacity: 0;
   
 }
 #sun {
-background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree-sun-irasutoya-style-japanese-illustration-png-image_16176861.png);
+background-image: url("photos/pngtree-sun-irasutoya-style-japanese-illustration-png-image_16176861.png");
  background-size: cover;
     background-repeat: no-repeat;
     top: 0%;
@@ -498,6 +498,18 @@ background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree
 /* end of page three */
 
 /* page four */
+#sunpg4 {
+  background-image: url("photos/sun_yellow1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0%;
+    left: 75%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    clip-path: circle(50% at 50% 50%);
+
+}
 @keyframes persimmonAnimate {
     0% {
         opacity: 0
@@ -510,7 +522,7 @@ background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree
     animation-name: persimmonAnimate;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyuTiQjRSYySmv2mZ2M-hFEbiy7FkzJP9xbZkhKDf7COnbnnOkpRSU8t9E7Fr78TMwjz8B-E36FWAG1G8YY55pBbCmqls3VL-k5SLa_JBl_gceAPIA9pskA0pilG2ptRj498ms-NNuwbJR/s1600/fruit_kaki.png);
+    background-image: url("photos/fruit_kaki.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50px;
@@ -523,7 +535,7 @@ background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree
     animation-name: persimmonAnimate;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy7iHslK5tj1CzdSYNCdBv9QDjD6MXiRr3B4y-fG20wwLe8rKp_0i3K0a9CTHqtvWcj9qVewzexJ_4GbUWQNsACbiRoiXBVhRFxwp0JcLE1-DBTPBYku24aX046tpCa-gFJno5teXLXWr7/s1600/vegetable_mini_tomato_orange.png);
+    background-image: url("photos/vegetable_mini_tomato_orange.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -536,7 +548,7 @@ background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree
     animation-name: persimmonAnimate;
     animation-duration: 4s;
     animation-fill-mode: forwards;
-    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy7iHslK5tj1CzdSYNCdBv9QDjD6MXiRr3B4y-fG20wwLe8rKp_0i3K0a9CTHqtvWcj9qVewzexJ_4GbUWQNsACbiRoiXBVhRFxwp0JcLE1-DBTPBYku24aX046tpCa-gFJno5teXLXWr7/s1600/vegetable_mini_tomato_orange.png);
+    background-image: url("photos/vegetable_mini_tomato_orange.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
@@ -544,18 +556,6 @@ background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree
     position: absolute;
     left: 75%;
     top: 55%;
-}
-#sunpg4 {
-  background-image: url("photos/sun_yellow1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  top: 0%;
-    left: 75%;
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    clip-path: circle(50% at 50% 50%);
-
 }
 
 /* end of page 4 */
@@ -576,7 +576,7 @@ top: 60%;
 left: 12%;
 width: 170px;
 height: 1500px;
-background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz0biB17cJqro957Jm6LcT1VK9yFkumQk1sbFyFW1VcFugcs_ZEyzMhqm3o9oYKHhMa0b_FRmcnjWdpCowiZxJKwx2YcmP6Ith5OF3Pp285NhZJma4HKyZJJ6v88m2hp04NuNn6rS7TmU1/s600/umi_kani.png);
+background-image: url("photos/umi_kani.png");
 background-repeat: no-repeat;
 background-size: contain;
 animation: crabAsk 3s ease-in-out 0s infinite;
@@ -602,7 +602,7 @@ top: 60%;
 left: 75%;
 width: 180px;
 height: 180px;
-background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZPQ8MpxJClA12cNagtztlodVQdhxzBi3KtZF4eFtB6CDkuMBPuZa5-220_LG0rD_VIia_-4Q5oAVI6ULBIuQY8Rwo5VoHKb_lBf20TTDw7oGPwFizriJFG0W7f2YMG7nQiYPX3U6Sra4/s800/animal_stand_saru.png);
+background-image: url("photos/animal_stand_saru.png");
 background-repeat: no-repeat;
 background-size: contain;
 animation: monkeyApproach 2s ease-out 0s forwards, monkeyClimb 2s ease-in 2.2s forwards;
@@ -617,7 +617,7 @@ top: 20%;
 left: 62%;
 width: 620px;
 height: 1020px;
-background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpqy4lZlKBo6VgFAwjEXkmYLA0uG3i0l8YhHJE4bu88kS58Mw3oZIAAtGG6y6fj48hz11yZoUv8MSUUyKgxb-R1NfbGTlw1oO3ZCGalEsHlUvc6OCSZT63c5rUnEUhsV-A_NXMrzfC5Zw/s800/tree_keyaki.png);
+background-image: url("photos/tree_keyaki.png");
 background-repeat: no-repeat;
 background-size: contain;
 transform-origin: bottom center;
@@ -631,7 +631,7 @@ top: 30%;
 left: 80%;
 width: 48px;
 height: 48px;
-background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy7iHslK5tj1CzdSYNCdBv9QDjD6MXiRr3B4y-fG20wwLe8rKp_0i3K0a9CTHqtvWcj9qVewzexJ_4GbUWQNsACbiRoiXBVhRFxwp0JcLE1-DBTPBYku24aX046tpCa-gFJno5teXLXWr7/s1600/vegetable_mini_tomato_orange.png);
+background-image: url("photos/vegetable_mini_tomato_orange.png");
 background-repeat: no-repeat;
 background-size: contain;
 opacity: 1;
@@ -701,7 +701,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 #monkeypg6 {
   width: 150px;
   height: 150px;
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZPQ8MpxJClA12cNagtztlodVQdhxzBi3KtZF4eFtB6CDkuMBPuZa5-220_LG0rD_VIia_-4Q5oAVI6ULBIuQY8Rwo5VoHKb_lBf20TTDw7oGPwFizriJFG0W7f2YMG7nQiYPX3U6Sra4/s800/animal_stand_saru.png);
+  background-image: url("photos/animal_stand_saru.png");
   background-size: cover;
   background-color: transparent;
   position: absolute;
@@ -714,7 +714,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 #crabpg6 {
   width: 120px;
   height: 120px;
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQajaGFHvWxT7JmWk9Ck5P7KlMtotQ0ASobD6rU3g4zkYitH_kWTfRWvSNRzahV1HzFp0fqRSqdVS4uuN3OZFJo3-sQxR0OiLjIZ0KyMppkoUEN7DObh3p_qhBnlUdMj8VByZlvCtKzew/s800/seiza04_kani.png);
+  background-image: url("photos/crabver2.jpg.png");
   background-size: cover;
   background-color: transparent;
   position: absolute;
@@ -747,7 +747,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 #sourfruitpg6 {
   width: 60px;
   height: 60px;
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijbtwJRZDTNlcLjvVWwPssJQeP9jwP8QG6Cu8Cf2T9robiKMb7YZPsslQVFKaBVj4vsZTClh9z7_6IuD8sd8Ph6xG2KZbg-cBhKaJZlQvYU4uZ2_VH1H448lk70oMoipUClOBusXY0BWXY/s1600/vegetable_mini_tomato_green.png);
+  background-image: url("photos/vegetable_mini_tomato_green.png");
   background-size: cover;
   position: absolute;
   background-color: transparent;
@@ -767,7 +767,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 #crabhitpg6 {
   width: 140px;
   height: 120px;
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXBzySnjpm_RWSaWaccyOBJR1EfOnuxXaVkJq8nSk_WiacIkCK5pvj1IOwvXWBwgV2gPGRUIGIe-NB3Y3j-skIjdYSFeqg3clLpWm7YXuv2dEYK75mAjFIVW7rsAcqslzS_9IRIGSBjrsH/s800/kani_osu.png);
+  background-image: url("photos/crabver3.png");
   background-size: cover;
   background-color: transparent;
   position: absolute;
@@ -795,7 +795,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   animation-name: skullafterdeadcrab;
   animation-duration: 12s;
   animation-fill-mode: forwards;
-  background-image: url(https://japaclip.com/files/human-bones.png);
+  background-image: url("photos/human-bones.png");
   background-color: transparent;
   background-size: cover;
   height: 140px;
@@ -810,7 +810,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 /* START OF PAGE 7*/
 
 #curtains {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlHPJk90m_rT_3j4Hl2qtS6rwL4BUz5vux5KKw-e6sY5fhiK5GBE3o_R86foLyryIHyi7OU96SJVu11_-6KxBGmdDTyZx5X61CmCv_EqM72ZfU7ABAufnL9rfduPfw0uzGL-av9frUez8H/s800/curtain_close.png);
+  background-image: url("photos/curtain_close.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -837,7 +837,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 }
 
 #ricemortarpg7 {
-  background-image: url(https://cdn-ak.f.st-hatena.com/images/fotolife/N/Newdonut/20221123/20221123045422.png);
+  background-image: url("photos/20221123045422.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -850,7 +850,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 
 }
 #beepg7 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidWtRsWiqmnpQi_FLcpKbliYesySh7PEsMA93CHdFlJ8XjOm3wozQ2FsTAc5IECV0n-R00RRzp-sLwkdtCgFohh74QKyFfmZn8ebHx8VC_tCfPWZB77Yx-jz-LQz7nx7-t3Ijlkwx5axFb/s400/bug_character_hachi.png);
+  background-image: url("photos/bug_character_hachi.png");
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -863,7 +863,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 }
 
 #chestnutpg7 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQLtu17YSYKIbA0WIYcmFWtGwHiUxmMuya_NyJhgXcdz7eprj5PzpBdh2NpXuhAdLcuXW3SSllBidC0_4zx-RoDH6Smqhyih8w5LOby3cZlqE5jnF9OZLOrz3PZ_2Qlo4chq-DW-y0zKiB/s400/character_kuri.png);
+  background-image: url("photos/character_kuri.png");
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
@@ -875,7 +875,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   z-index: 1;
 }
 .madmark {
-  background-image: url(https://chicodeza.com/wordpress/wp-content/uploads/ikarima-ku-illust31.png);
+  background-image: url("photos/ikarima-ku-illust31.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -927,7 +927,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { left: 45%; top: 65%; opacity: 1; }
 }
 #monkeypg8 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZPQ8MpxJClA12cNagtztlodVQdhxzBi3KtZF4eFtB6CDkuMBPuZa5-220_LG0rD_VIia_-4Q5oAVI6ULBIuQY8Rwo5VoHKb_lBf20TTDw7oGPwFizriJFG0W7f2YMG7nQiYPX3U6Sra4/s800/animal_stand_saru.png);
+  background-image: url("photos/animal_stand_saru.png");
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -947,7 +947,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { top: 70%; transform: scale(1); }
 }
 #ricemortarpg8 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnMhAWZDrzSkiC6lTRKWDy2JXfxUcavKuUHSIVJRP3f0ob_kaY49PwXB5tT7RE5lb0Bl6k5viaPNv7l09iYruizOps1ArrKFpONeoN_K21pRDGsbiIgp8CFZZUZFF_lVt5_TzByxMmHEdz/s800/mochitsuki_dougu.png);
+  background-image: url("photos/20221123045422.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -969,7 +969,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { top: 15%; left: 65%; }
 }
 #beepg8 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidWtRsWiqmnpQi_FLcpKbliYesySh7PEsMA93CHdFlJ8XjOm3wozQ2FsTAc5IECV0n-R00RRzp-sLwkdtCgFohh74QKyFfmZn8ebHx8VC_tCfPWZB77Yx-jz-LQz7nx7-t3Ijlkwx5axFb/s1600/bug_character_hachi.png);
+  background-image: url("photos/bug_character_hachi.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -989,7 +989,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { left: 40%; top: 75%; transform: rotate(720deg); }
 }
 #chestnutpg8 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQLtu17YSYKIbA0WIYcmFWtGwHiUxmMuya_NyJhgXcdz7eprj5PzpBdh2NpXuhAdLcuXW3SSllBidC0_4zx-RoDH6Smqhyih8w5LOby3cZlqE5jnF9OZLOrz3PZ_2Qlo4chq-DW-y0zKiB/s800/character_kuri.png);
+  background-image: url("photos/character_kuri.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -1011,7 +1011,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 }
 
 #boompg8 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzdrFDNuIHEB7THdZgIjgMIwx2sC-rKmcmIlpBh3toUXrLOaFLQ1qCzuB1lEs5JLB633AIraV6qYLH6QsuLIE5gIDMnf-eMLaUpXJ8C_xUmbLGhgbhi2jKRULGmv13sBzzlkzHKmg-Kp0/s800/bakuhatsu.png);
+  background-image: url("photos/bakuhatsu.png");
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover;
@@ -1039,7 +1039,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   100% { left: 110%; top: 65%;  }
 }
 #monkeypg9 {
-  background-image: url(https://tegakisozai.com/wp-content/uploads/2022/01/momotarou_saru.png); /* Monkey image */
+  background-image: url("photos/momotarou_saru.png"); /* Monkey image */
   background-color: transparent;
   background-size: cover;
   position: absolute;
@@ -1074,7 +1074,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
 
 /* Persimmon tree */
 #treepg9 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj53QC5sWz-QhoVMtVEEK8xiKrEXEeQZync3f2aNbXCM6BtYABGSfbX5g4iO66kD9-yv62PSwuYeFoLAaK75xtmuvIHAOfyZvQmz3zK0EA3swGFzagnEsYFOE78SI7MGf50MHIrdHBZkvas/s800/tree_biwa.png); /* Tree image */
+  background-image: url("photos/tree_biwa.png"); /* Tree image */
   background-color: transparent;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1091,7 +1091,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   50% { top: 38%; left: 73%; transform: rotate(-5deg); }
 }
 #beepg9 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidWtRsWiqmnpQi_FLcpKbliYesySh7PEsMA93CHdFlJ8XjOm3wozQ2FsTAc5IECV0n-R00RRzp-sLwkdtCgFohh74QKyFfmZn8ebHx8VC_tCfPWZB77Yx-jz-LQz7nx7-t3Ijlkwx5axFb/s1600/bug_character_hachi.png); /* Bee image */
+  background-image: url("photos/bug_character_hachi.png"); /* Bee image */
   background-color: transparent;
   background-size: cover;
   position: absolute;
@@ -1108,7 +1108,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   50% { top: 63%; }
 }
 #ricemortarpg9 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnMhAWZDrzSkiC6lTRKWDy2JXfxUcavKuUHSIVJRP3f0ob_kaY49PwXB5tT7RE5lb0Bl6k5viaPNv7l09iYruizOps1ArrKFpONeoN_K21pRDGsbiIgp8CFZZUZFF_lVt5_TzByxMmHEdz/s800/mochitsuki_dougu.png); /* Rice mortar image */
+  background-image: url("photos/20221123045422.png"); /* Rice mortar image */
   background-color: transparent;
   background-size: cover;
   position: absolute;
@@ -1123,7 +1123,7 @@ animation: fruitBounce 1s ease-in 5.8s forwards;
   50% { top: 36%; }
 }
 #chestnutpg9 {
-  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQLtu17YSYKIbA0WIYcmFWtGwHiUxmMuya_NyJhgXcdz7eprj5PzpBdh2NpXuhAdLcuXW3SSllBidC0_4zx-RoDH6Smqhyih8w5LOby3cZlqE5jnF9OZLOrz3PZ_2Qlo4chq-DW-y0zKiB/s800/character_kuri.png); /* Rice mortar image */
+  background-image: url("photos/character_kuri.png"); /* chestnut image */
   background-color: transparent;
   background-size: cover;
   position: absolute;
