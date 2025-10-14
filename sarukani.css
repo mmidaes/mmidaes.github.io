@@ -545,6 +545,18 @@ background-image: url(https://png.pngtree.com/png-vector/20250512/ourmid/pngtree
     left: 75%;
     top: 55%;
 }
+#sunpg4 {
+  background-image: url("photos/sun_yellow1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0%;
+    left: 75%;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    clip-path: circle(50% at 50% 50%);
+
+}
 
 /* end of page 4 */
 
