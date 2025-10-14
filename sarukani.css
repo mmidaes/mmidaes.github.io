@@ -434,12 +434,12 @@ animation-fill-mode: forwards; /* stay at end position */
 
 #sproutpg3 {
   animation: sproutGrow 8s forwards;
-  animation-delay: 6s; /* Wait until crab + seed animations end */
+  animation-delay: 3.5s; /* Wait until crab + seed animations end */
   background-image: url("tree_keyaki.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-  width: 500px;
+  width: 570px;
   height: 600px; /* final full size */
   position: absolute;
   top: 20%;
